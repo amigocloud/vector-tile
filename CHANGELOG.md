@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.0.4 
+- Handle duplicate keys in getValue. Thanks to xabbu42 in https://github.com/mapbox/vector-tile/pull/56
+
 ## 1.0.2
 
 - Add support for QNX 7 compiler.

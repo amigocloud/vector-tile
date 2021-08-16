@@ -1,6 +1,8 @@
 ## Vector Tile Library
 
-C++14 library for decoding [Mapbox Vector Tiles](https://www.mapbox.com/vector-tiles/).
+C++14 library for decoding [Mapbox Vector Tiles](https://www.mapbox.com/vector-tiles/). 
+
+It was updated with [xabbu42](https://github.com/xabbu42) pull request [56](https://github.com/mapbox/vector-tile/pull/56) to handle [getValue does not handle layer with key duplicates](https://github.com/mapbox/vector-tile/issues/55) issue.
 
 [![Build Status](https://travis-ci.org/mapbox/vector-tile.svg?branch=master)](https://travis-ci.org/mapbox/vector-tile)
 
@@ -51,6 +53,6 @@ make
 
 These are the applications targeted to upgrade to this library:
 
-* [Mapbox GL Native](https://github.com/mapbox/mapbox-gl-native)
+* [AmigoCloud Mapbox GL Native](https://github.com/amigocloud/mapbox-gl-native)
 * [Mapnik Vector Tile](https://github.com/mapbox/mapnik-vector-tile)
 * [Tippecanoe](https://github.com/mapbox/tippecanoe)
